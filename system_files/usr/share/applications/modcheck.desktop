@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/usr/sbin/java -jar /usr/bin/modcheck.jar
+Name=MCSR Mod Check
+Icon=/usr/share/icons/hicolor/256x256/end_crystal-256x256.png

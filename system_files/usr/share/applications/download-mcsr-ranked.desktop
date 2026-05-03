@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=xdg-open https://mcsrranked.com/download
+Name=Download MCSR Ranked
+Icon=/usr/share/icons/hicolor/256x256/end_crystal-256x256.png
