@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=xdg-open https://github.com/rickh94/bazzite-mcsr
+Name=System README
+Icon=/usr/share/icons/breeze-dark/mimetypes/64/text-x-info.svg

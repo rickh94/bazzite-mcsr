@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 -y copr enable g3tchoo/prismlauncher
-dnf5 install -y prismlauncher java-25-openjdk jemalloc-devel bsdtar
+dnf5 install -y prismlauncher java-25-openjdk jemalloc-devel bsdtar obs-studio
 
 wget https://github.com/tesselslate/waywall/releases/download/0.2026.02.06/waywall-0.5-1.fc42.x86_64.rpm
 mkdir /tmp/waywall

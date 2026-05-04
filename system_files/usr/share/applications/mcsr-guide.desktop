@@ -5,4 +5,4 @@ Type=Application
 Terminal=false
 Exec=xdg-open https://draconix6.github.io/linux-mcsr/index.html
 Name=Draconix's Linux Guide for MCSR
-Icon=/usr/share/icons/hicolor/256x256/end_crystal-256x256.png
+Icon=/usr/share/icons/breeze-dark/mimetypes/32/text-x-texinfo.svg
