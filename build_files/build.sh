@@ -20,6 +20,7 @@ cp -r /tmp/waywall/usr/bin/* /usr/bin
 cp -r /tmp/waywall/usr/local/lib64/* /usr/lib64
 cp -r /tmp/waywall/usr/share/doc/* /usr/share/doc
 cp -r /tmp/waywall/usr/share/licenses /usr/share/licenses
+dnf5 install -y egl-wayland libspng 
 
 rm ./waywall-0.5-1.fc42.x86_64.rpm
 curl -o /usr/bin/calcsens.py https://raw.githubusercontent.com/Esensats/mcsr-calcsens/refs/heads/master/calcsens.py
