@@ -26,8 +26,8 @@ rm ./waywall-0.5-1.fc42.x86_64.rpm
 curl -o /usr/bin/calcsens.py https://raw.githubusercontent.com/Esensats/mcsr-calcsens/refs/heads/master/calcsens.py
 sed -i '1i #!/usr/bin/env python' /usr/bin/calcsens.py
 chmod +x /usr/bin/calcsens.py
-curl -o /usr/bin/mapcheck.jar https://github.com/cylorun/Map-Check/releases/download/v4.3.0/Map-Check-4.3.0-all.jar
-curl -o /usr/bin/modcheck.jar https://github.com/tildejustin/modcheck/releases/download/3.1.1/modcheck-3.1.1.jar
+curl -Lo /usr/bin/mapcheck.jar https://github.com/cylorun/Map-Check/releases/download/v4.3.0/Map-Check-4.3.0-all.jar
+curl -Lo /usr/bin/modcheck.jar https://github.com/tildejustin/modcheck/releases/download/3.1.1/modcheck-3.1.1.jar
 
 dnf5 -y copr disable g3tchoo/prismlauncher
 
